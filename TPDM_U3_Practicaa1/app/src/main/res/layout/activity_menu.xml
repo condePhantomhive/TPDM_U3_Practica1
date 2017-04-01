@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0sp"
+    tools:context="mx.edu.ittepic.tpdm_u1_miniproyecto.Menu">
+    <TableLayout
+        android:background="@drawable/fondo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow android:layout_weight="1">
+
+            <ImageView
+                style= "@style/imagenes"
+                android:background="#AAFFFFFF"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/reservars"
+                android:id="@+id/reservacion" />
+
+            <ImageView
+                style= "@style/imagenes"
+                android:background="#50FFFFFF"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/pastas"
+                android:id="@+id/pasta" />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <ImageView
+                style= "@style/imagenes"
+                android:background="#50FFFFFF"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/pizzas"
+                android:id="@+id/pizza" />
+
+            <ImageView
+                style= "@style/imagenes"
+                android:background="#AAFFFFFF"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/desserts"
+                android:id="@+id/postre" />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <ImageView
+                style= "@style/imagenes"
+                android:background="#AAFFFFFF"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/vinos"
+                android:id="@+id/bebida" />
+
+            <ImageView
+                style= "@style/imagenes"
+                android:background="#50FFFFFF"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:srcCompat="@drawable/carro"
+                android:id="@+id/cuenta" />
+        </TableRow>
+
+    </TableLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:src="@drawable/export"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16sp"/>
+</RelativeLayout>

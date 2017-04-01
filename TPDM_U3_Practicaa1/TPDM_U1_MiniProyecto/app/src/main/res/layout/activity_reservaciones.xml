@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reservaciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/reservado2s"
+    tools:context="mx.edu.ittepic.tpdm_u1_miniproyecto.Reservaciones">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:hint="Tu nombre:"
+        android:ems="10"
+        android:background="@drawable/botonesres"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:paddingLeft="15sp"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Fecha"
+        android:ems="10"
+        android:textSize="20sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:paddingLeft="15sp"
+        android:background="@drawable/botonesres"
+        android:id="@+id/fecha" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Hora"
+        android:ems="10"
+        android:textSize="20sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:paddingLeft="15sp"
+        android:background="@drawable/botonesres"
+        android:id="@+id/hora" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Telefono"
+        android:ems="10"
+        android:textSize="20sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:paddingLeft="15sp"
+        android:background="@drawable/botonesres"
+        android:id="@+id/telefono" />
+
+    <Button
+        android:text="Reservar"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+
+</LinearLayout>
